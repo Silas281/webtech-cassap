@@ -41,6 +41,328 @@ Date completed:  November, 2021
     <?php require_once('sidebar.php') ?>
 
     <div class="main-content">
+    <div class="table-responsive m-5">
+
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+          
+            <th >Full Name</th>
+            <th >Year</th>
+            <th >Course</th>
+            <th >Telephone</th>
+            <th >Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+            
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+            </td>
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+            
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+            </td>
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+            
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+            </td>
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+            
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+            </td>
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+            
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+            </td>
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+        <tr>
+           
+            <td>Mark</td>
+            <td>2023</td>
+            <td>CS</td>
+            <td>+2335463636</td>
+            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                        class="bi bi-trash"></i></a></td>
+
+        </tr>
+      
+
+    </tbody>
+</table>
+</div>
+
+<div class="add-person">
+<a title="Add a person" href="" id="add-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-person-plus-fill"></i></a>
+</div>
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add Person</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Form-->
+                        <form class="row g-3 p-5">
+                            <div class="col-md-6">
+                                <label for="inputName" class="form-label">Name</label>
+                                <input type="text" name="name" class="form-control" id="inputName">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="emailInput" class="form-label">Emial</label>
+                                <input type="email" class="form-control" id="emailInput" name="email">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputBio" class="form-label">Bio</label>
+                                <textarea name="bio" class="form-control" id="inputAddress" rows="3"
+                                    placeholder="A third year student intereted in ..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <label for="inputTel" class="form-label">Telephone Number</label>
+                                <input type="text" name="telephone" class="form-control" id="inputTel"
+                                    placeholder="+233542893998">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputClass" class="form-label">Class</label>
+                                <input type="text" name="class" class="form-control" id="inputClass">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputBookLink" class="form-label">Booking Link</label>
+                                <input type="url" name="booking-link" class="form-control" id="inputBookLink">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputType" class="form-label">Type</label>
+                                <select id="inputType" name="type" class="form-select">
+                                    <option selected>Advisor</option>
+                                    <option>CPA</option>
+
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputZip" class="form-label">Department</label>
+                                <select id="inputType" class="form-select" name="dept">
+                                    <option selected>Computer Science</option>
+                                    <option>MIS</option>
+                                    <option>EE</option>
+                                    <option>BA</option>
+                                    <option>ME</option>
+                                    <option>CE</option>
+
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Person</button>
+                        </form>
+                    </div>
+                </div>
+                </form>
+                <!--/Form-->
+            </div>
+
+        </div>
+
         <div class="title">
             <h1>CAREER PEER ADVISORS (CPAs)</h1>
         </div>
