@@ -15,7 +15,7 @@ Date completed: 10th November, 2021
 <!---SIDEBAR-->
 <aside class="sidebar">
     <div class="logo-c">
-        <a class="navbar-brand" href="bashboard.php"><img src="assets/images/logo1.png" alt=""></a>
+        <a class="navbar-brand" href="dashboard.php"><img src="assets/images/logo1.png" alt=""></a>
     </div>
     <ul class="nav flex-column">
         <li class="nav-item">
