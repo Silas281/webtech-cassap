@@ -2,32 +2,8 @@ body {
     font-family      : 'Roboto', sans-serif;
     font-size        : 14px; 
 }
-.navbar {
-   height: 90px;
-   margin-top: -10px;
-   padding-bottom: 20px;
-}
-.navbar a{
-    color: #fff;
-}
-.navbar-brand img{
-    width: 60px;
-}
-.navbar button{
-    color: #fff;
-    background-color: #fff;
-}
 
 
-.navbar-collapse{
-    display: flex;
-    justify-content: flex-end;
-    justify-self: flex-end;
-    color: #fff;
-}
-.navbar-collapse .navbar-nav a{
-    color: #fff;
-}
 .user-profile{
     display: flex;
     flex-direction: column;
@@ -50,8 +26,6 @@ body {
     height:         100%;
 }
 
-
-
 .title h1{
     background-color: rgb(122, 16, 16);
     text-align: center;
@@ -61,7 +35,6 @@ body {
 }
 
 .name-header{
-   
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -71,13 +44,6 @@ body {
     margin-bottom: 20px;
 }
 
-.update-button{
-    background-color: rgb(122, 16, 16);
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    padding: 2px;
-}
 .profile{
     height: 150px;
     /* width:150px ; */
@@ -167,13 +133,16 @@ CPAs SECTION
 }
 
 .table{
+    color: rgb(129, 129, 129) !important;
     transition: 0.5em;
 }
 
-.table tr{
-    border: 0.5px solid rgb(243, 243, 243);
-   
+.table th:hover, .table tr:hover{
+    background-color: rgb(248, 246, 246);
+    transition: 0.5s;
 }
+
+
 .dash-row{
     margin-top: 25px;
 }
@@ -208,11 +177,32 @@ CPAs SECTION
 #add-btn{
     position: fixed;
     font-size: 40px;
-    color: #851c2a;
     padding: 5px;    
     right: 40px;
     bottom: 30px;
+    color: #851c2a;
+}
 
+.search-c{
+    border-bottom: 1.5px solid rgb(192, 192, 192);
+    padding-top: 20px;
+}
+
+.search-c input{
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+}
+
+.search-c input:focus{
+    background-color: rgb(243, 243, 243);
+    outline: none;
+    transition: 0.3s;  
+}
+
+.search-c button{
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    border: none;
 }
 
 

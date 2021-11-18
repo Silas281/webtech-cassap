@@ -19,8 +19,8 @@ Date completed:  November, 2021
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CASSAP|DASHBOARD</title>
     <!--Styles.css-->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="sidebar.css?v=<?php echo time(); ?>">
     <!-- Bootstap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -34,270 +34,269 @@ Date completed:  November, 2021
 
 
     <!--NAVBAR-->
-  
+
 
 
     <!--SIDEBAR-->
     <?php require_once('sidebar.php') ?>
 
     <div class="main-content">
-    <div class="table-responsive m-5">
+        <!--Container div for table-->
+        <div class="table-responsive m-5">
+            <table class="table table-hover table-responsive table-borderless">
+                <thead>
+                    <tr>
+                        <th><i class="bi bi-people"></i>Full Name</th>
+                        <th>Year</th>
+                        <th><i class="bi bi-book"></i>Course</th>
+                        <th><i class="bi bi-telephone"></i>Telephone</th>
+                        <th><i class="bi bi-pen"></i>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                    class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                    class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                    class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                    class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                    class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>2023</td>
+                        <td>CS</td>
+                        <td>+2335463636</td>
+                        <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
+                                    class="bi bi-trash"></i></a></td>
+
+                    </tr>
 
 
-<table class="table table-hover table-responsive">
-    <thead>
-        <tr>
-          
-            <th >Full Name</th>
-            <th >Year</th>
-            <th >Course</th>
-            <th >Telephone</th>
-            <th >Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
+                </tbody>
+            </table>
+        </div>
 
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
+        <div class="add-person">
+            <a title="Add a person" href="" id="add-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                    class="bi bi-person-plus-fill"></i></a>
+        </div>
 
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-            
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
-            </td>
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-            
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
-            </td>
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-            
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
-            </td>
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-            
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
-            </td>
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-            
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                        class="bi bi-pencil-square"></i></a> <a href="#"><i class="bi bi-trash"></i></a>
-            </td>
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-        <tr>
-           
-            <td>Mark</td>
-            <td>2023</td>
-            <td>CS</td>
-            <td>+2335463636</td>
-            <td><a href="#"><i class="bi bi-pencil-square"></i></a> <a href="#"><i
-                        class="bi bi-trash"></i></a></td>
-
-        </tr>
-      
-
-    </tbody>
-</table>
-</div>
-
-<div class="add-person">
-<a title="Add a person" href="" id="add-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-person-plus-fill"></i></a>
-</div>
-
- <!-- Modal -->
- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -355,105 +354,15 @@ Date completed:  November, 2021
                             </div>
                             <button type="submit" class="btn btn-primary">Add Person</button>
                         </form>
+                        <!--/Form-->
                     </div>
                 </div>
-                </form>
-                <!--/Form-->
+
+
             </div>
 
-        </div>
+        </div> <!--/ Modal -->
 
-        <div class="title">
-            <h1>CAREER PEER ADVISORS (CPAs)</h1>
-        </div>
-        <!--CPAs-->
-        <div class="row m-5 cpa-card">
-            <div class="col-sm ">
-                <div class=" profile-top mb-3">
-                    <div class=" im-c">
-
-                        <img class="cpa-image" src="assets/images/head1.jpeg" alt="">
-
-                        <h4 class="cpa-name">Silas Sangmin</h4>
-
-                    </div>
-
-                    <div class="">
-                        <button class="update-button"><i class="bi bi-pencil-square"></i>Update info</button>
-                    </div>
-                </div>
-                <div class="cpa-info-section">
-                    <h3>Bio</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-                        Praesent libero. Sed cursus ante dapibus diam.
-                        Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
-                </div>
-                <div>
-                    <h3>Year Group</h3>
-                    <small>silas.sangmin@ashesi.edu.gh</small> <br>
-                    <small>+233542893998</small>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row m-5 cpa-card">
-            <div class="col-sm ">
-                <div class=" profile-top mb-3">
-                    <div class=" im-c">
-
-                        <img class="cpa-image" src="assets/images/head1.jpeg" alt="">
-
-                        <h4 class="cpa-name">Silas Sangmin</h4>
-
-                    </div>
-
-                    <div class="">
-                        <button class="update-button"><i class="bi bi-pencil-square"></i>Update info</button>
-                    </div>
-                </div>
-                <div class="cpa-info-section">
-                    <h3>Bio</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-                        Praesent libero. Sed cursus ante dapibus diam.
-                        Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
-                </div>
-                <div>
-                    <h3>Year Group</h3>
-                    <small>silas.sangmin@ashesi.edu.gh</small> <br>
-                    <small>+233542893998</small>
-                </div>
-            </div>
-        </div>
-
-        <div class="row m-5 cpa-card">
-            <div class="col-sm ">
-                <div class=" profile-top mb-3">
-                    <div class=" im-c">
-
-                        <img class="cpa-image" src="assets/images/head1.jpeg" alt="">
-
-                        <h4 class="cpa-name">Silas Sangmin</h4>
-
-                    </div>
-
-                    <div class="">
-                        <button class="update-button"><i class="bi bi-pencil-square"></i>Update info</button>
-                    </div>
-                </div>
-                <div class="cpa-info-section">
-                    <h3>Bio</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-                        Praesent libero. Sed cursus ante dapibus diam.
-                        Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
-                </div>
-                <div>
-                    <h3>Year Group</h3>
-                    <small>silas.sangmin@ashesi.edu.gh</small> <br>
-                    <small>+233542893998</small>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- /main -->
 

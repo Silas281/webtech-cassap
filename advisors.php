@@ -19,7 +19,7 @@ Date completed:  November, 2021
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CASSAP</title>
     <!--Styles.css-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="sidebar.css?v=<?php echo time(); ?>">
     <!-- Bootstap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -38,19 +38,23 @@ Date completed:  November, 2021
     <?php require_once('sidebar.php') ?>
 
     <div class="main-content">
+        <!--Search Form-->
+        <div class="search-c m-5">
+            <form action="" method="post">
+                <input type="text" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
         <!--Container div for table-->
         <div class="table-responsive m-5">
-
-
-            <table class="table table-hover table-responsive">
+            <table class="table table-responsive table-borderless">
                 <thead>
                     <tr>
-
-                        <th>Full Name</th>
+                        <th><i class="bi bi-people"></i>Full Name</th>
                         <th>Year</th>
-                        <th>Course</th>
-                        <th>Telephone</th>
-                        <th>Actions</th>
+                        <th><i class="bi bi-book"></i>Course</th>
+                        <th><i class="bi bi-telephone"></i>Telephone</th>
+                        <th><i class="bi bi-pen"></i>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -357,10 +361,9 @@ Date completed:  November, 2021
                             </div>
                             <button type="submit" class="btn btn-primary">Add Person</button>
                         </form>
+                         <!--/Form-->
                     </div>
-                </div>
-                </form>
-                <!--/Form-->
+                </div>               
             </div>
 
         </div>

@@ -21,6 +21,9 @@
 
 
 }
+.navbar-brand img{
+    width: 100px;
+}
 
 .sidebar a:hover{
    background-color: #721925;
@@ -28,7 +31,7 @@
     transition:0.5em;
    
 }
-a:active{
+a:active,a:active:visited{
     color: rgb(179, 179, 179);
    
 }
