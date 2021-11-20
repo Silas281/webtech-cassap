@@ -28,7 +28,7 @@ Date completed: 10th November, 2021
             <a class="nav-link" href="cpas.php"> <i class="bi bi-people"></i>Career Peer Advisors</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-calendar4-event"></i> Events</a>
+            <a class="nav-link" href="events.php"><i class="bi bi-calendar4-event"></i> Events</a>
         </li>
 
         <li class="nav-item">

@@ -17,7 +17,7 @@ Date completed:  November, 2021
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASSAP|DASHBOARD</title>
+    <title>CASSAP</title>
     <!--Styles.css-->
     <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="sidebar.css?v=<?php echo time(); ?>">
@@ -30,9 +30,6 @@ Date completed:  November, 2021
 </head>
 
 <body>
-
-
-
     <!--NAVBAR-->
 
 
@@ -41,9 +38,16 @@ Date completed:  November, 2021
     <?php require_once('sidebar.php') ?>
 
     <div class="main-content">
+        <!--Search Form-->
+        <div class="search-c m-5">
+            <form action="" method="post">
+                <input type="text" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
         <!--Container div for table-->
         <div class="table-responsive m-5">
-            <table class="table table-hover table-responsive table-borderless">
+            <table class="table table-responsive table-borderless">
                 <thead>
                     <tr>
                         <th><i class="bi bi-people"></i>Full Name</th>
@@ -289,28 +293,30 @@ Date completed:  November, 2021
                 </tbody>
             </table>
         </div>
-
+        <!-- Button trigger modal - add advisor -->
         <div class="add-person">
             <a title="Add a person" href="" id="add-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                     class="bi bi-person-plus-fill"></i></a>
         </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+<!-- Modal Form -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Add Person</h5>
+                        <h5 class="modal-title px-5" id="exampleModalLabel">Add Person</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <!--Form-->
-                        <form class="row g-3 p-5">
-                            <div class="col-md-6">
+                        <form class="row g-3 px-5 px-2">
+                            <div class="col-md-12">
                                 <label for="inputName" class="form-label">Name</label>
                                 <input type="text" name="name" class="form-control" id="inputName">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label for="emailInput" class="form-label">Emial</label>
                                 <input type="email" class="form-control" id="emailInput" name="email">
                             </div>
@@ -324,11 +330,11 @@ Date completed:  November, 2021
                                 <input type="text" name="telephone" class="form-control" id="inputTel"
                                     placeholder="+233542893998">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label for="inputClass" class="form-label">Class</label>
                                 <input type="text" name="class" class="form-control" id="inputClass">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label for="inputBookLink" class="form-label">Booking Link</label>
                                 <input type="url" name="booking-link" class="form-control" id="inputBookLink">
                             </div>
@@ -343,28 +349,26 @@ Date completed:  November, 2021
                             <div class="col-md-6">
                                 <label for="inputZip" class="form-label">Department</label>
                                 <select id="inputType" class="form-select" name="dept">
-                                    <option selected>Computer Science</option>
+                                    <option selected>CS</option>
                                     <option>MIS</option>
                                     <option>EE</option>
                                     <option>BA</option>
                                     <option>ME</option>
                                     <option>CE</option>
-
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary">Add Person</button>
+                            <button type="submit" class="btn btn-custum-color">Add Person</button>
                         </form>
-                        <!--/Form-->
+                         <!--/Form-->
                     </div>
-                </div>
-
-
+                </div>               
             </div>
 
-        </div> <!--/ Modal -->
-
+        </div>
     </div>
-    <!-- /main -->
+    </div>
+    </div>
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -295,8 +295,7 @@ Date completed:  November, 2021
         </div>
         <!-- Button trigger modal - add advisor -->
         <div class="add-person">
-            <a title="Add a person" href="" id="add-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                    class="bi bi-person-plus-fill"></i></a>
+            <a title="Add event" href="" id="add-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-plus-square-fill"></i></i></a>
         </div>
 
 
@@ -307,17 +306,17 @@ Date completed:  November, 2021
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Add Person</h5>
+                        <h5 class="modal-title px-5" id="exampleModalLabel">Add Event</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <!--Form-->
-                        <form class="row g-3 p-5">
-                            <div class="col-md-6">
+                        <form class="row g-3 px-5 px-2">
+                            <div class="col-md-12">
                                 <label for="inputName" class="form-label">Name</label>
                                 <input type="text" name="name" class="form-control" id="inputName">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label for="emailInput" class="form-label">Emial</label>
                                 <input type="email" class="form-control" id="emailInput" name="email">
                             </div>
@@ -331,11 +330,11 @@ Date completed:  November, 2021
                                 <input type="text" name="telephone" class="form-control" id="inputTel"
                                     placeholder="+233542893998">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label for="inputClass" class="form-label">Class</label>
                                 <input type="text" name="class" class="form-control" id="inputClass">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label for="inputBookLink" class="form-label">Booking Link</label>
                                 <input type="url" name="booking-link" class="form-control" id="inputBookLink">
                             </div>
@@ -350,16 +349,15 @@ Date completed:  November, 2021
                             <div class="col-md-6">
                                 <label for="inputZip" class="form-label">Department</label>
                                 <select id="inputType" class="form-select" name="dept">
-                                    <option selected>Computer Science</option>
+                                    <option selected>CS</option>
                                     <option>MIS</option>
                                     <option>EE</option>
                                     <option>BA</option>
                                     <option>ME</option>
                                     <option>CE</option>
-
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary">Add Person</button>
+                            <button type="submit" class="btn btn-custum-color">Add Event</button>
                         </form>
                          <!--/Form-->
                     </div>
