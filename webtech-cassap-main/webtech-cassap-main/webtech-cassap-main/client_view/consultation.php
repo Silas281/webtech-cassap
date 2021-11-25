@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="card.css">
 
-    <title>Hello, world!</title>
+    <title>CASSAP</title>
 </head>
 
 <body>

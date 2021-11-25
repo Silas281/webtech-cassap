@@ -36,7 +36,7 @@ Date completed:  November, 2021
 
 
     <!--SIDEBAR-->
-    
+
 
     <!--GETTING DATA FROM DATABASE-->
     <?php
@@ -57,45 +57,76 @@ Date completed:  November, 2021
     <div class="main-content">
         <div class="container">
 
-        
-        <div class="row dash-row mt-5">
-            <div class="col-sm">
-                <div class="dash-items">
-                    <span><i class="bi bi-people"></i></span>
-                    <span class="num-count"><?= $advisors[0] ?></span>
-                    <span>Career Advisors</span>
+
+            <div class="row dash-row mt-5">
+                <div class="col-sm">
+                    <div class="dash-items">
+                        <span><i class="bi bi-people"></i></span>
+                        <span class="num-count"><?= $advisors[0] ?></span>
+                        <span>Career Advisors</span>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="dash-items">
+                        <span><i class="bi bi-mortarboard"></i></span>
+                        <span class="num-count"><?= $cpas ?></span>
+                        <span>Career Peer Advisors</span>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="dash-items">
+                        <span><i class="bi bi-calendar4-event"></i></i></span>
+                        <span class="num-count"><?= $events ?></span>
+                        <span>Events</span>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="dash-items">
+                        <span><i class="bi bi-"></i></span>
+                        <span class="num-count"><?= $cpas?></span>
+                        <span>Career Peer Advisors</span>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="dash-items">
-                    <span><i class="bi bi-mortarboard"></i></span>
-                    <span class="num-count"><?= $cpas ?></span>
-                    <span>Career Peer Advisors</span>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="dash-items">
-                    <span><i class="bi bi-calendar4-event"></i></i></span>
-                    <span class="num-count"><?= $events ?></span>
-                    <span>Events</span>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="dash-items">
-                    <span><i class="bi bi-"></i></span>
-                    <span class="num-count"><?= $cpas?></span>
-                    <span>Career Peer Advisors</span>
-                </div>
-            </div>
+
+            <!--Chart-->
+            <div id="chartContainer" style="height: 300px; width: 100%; margin-top: 100px;"></div>
         </div>
-        </div> 
     </div>
-   
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script>
+window.onload = function () {
+
+//Better to construct options first and then pass it as a parameter
+var options = {
+	title: {
+		text: "Analytics"              
+	},
+	data: [              
+	{
+		// Change type to "doughnut", "line", "splineArea", etc.
+		type: "column",
+		dataPoints: [
+			{ label: "Events",  y: 14 },
+			{ label: "Advisors", y:  4  },
+			{ label: "Peer Advisors", y:4    },
+			// { label: "",  y: 30  },
+			// { label: "grape",  y: 28  }
+		]
+	}
+	]
+};
+
+$("#chartContainer").CanvasJSChart(options);
+}
+</script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 </body>
 
 </html>

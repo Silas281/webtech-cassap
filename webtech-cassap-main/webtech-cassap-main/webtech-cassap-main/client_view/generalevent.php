@@ -49,7 +49,7 @@
                     <div class="blog-post__info">
                         <div class="blog-post__date">
                             <span><?= $value['event_date']?> </span>
-                            <span>4:00 PM</span>
+                            <span><?= $value['event_time']?></span>
                         </div>
 
                         <h1 class="blog-post__title"><?= $value['event_title']?></h1>

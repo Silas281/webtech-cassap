@@ -32,7 +32,7 @@ Date completed: 10th November, 2021
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-box-arrow-left"></i>Log out</a>
+            <a class="nav-link" href="../client_view/login.php"><i class="bi bi-box-arrow-left"></i>Log out</a>
         </li>
     </ul>
 </aside>
